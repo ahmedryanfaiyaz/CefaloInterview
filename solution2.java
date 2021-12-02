@@ -13,7 +13,7 @@ int romanToDecimal(String roman) {
 	int number = 0;
 	char prev = ' ';
 	for (int i = 0; i < roman.length(); i++) {
-		System.out.println(roman.charAt(i));
+		// System.out.println(roman.charAt(i));
 
 		if (prev == 'I' && roman.charAt(i) == 'V') {
 			number -= 1;
